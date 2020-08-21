@@ -38,12 +38,19 @@ const CasesList = (props) => {
     text: 'Case Number'
   }];
 
+  const NoDataIndication = () => (
+    <div>
+      No case is associated to this flight number
+    </div>
+  );
+
   return (
     <div class="search-result-table">
       <BootstrapTable keyField='id' data={ props.cases } columns={ columns } 
       striped
       hover
-      condensed/>
+      condensed
+  noDataIndication={ () => <NoDataIndication /> } />
   </div>
 )}
 

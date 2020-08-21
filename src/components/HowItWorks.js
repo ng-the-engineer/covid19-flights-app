@@ -11,7 +11,7 @@ const HowItWorks = (props) => (
     </div>
     <div class="row">
       <div class="long-paragraph">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis molestie neque. Mauris vulputate sit amet nisi in aliquet. Sed sit amet orci ultricies, feugiat est id, porttitor augue. Morbi feugiat elementum diam, a vulputate leo euismod viverra. Nunc enim est, blandit eleifend dictum facilisis, imperdiet non felis. Suspendisse vel lobortis tortor, at vestibulum dui. Vivamus ullamcorper vulputate odio. Aenean consequat est vestibulum nulla volutpat viverra tristique id dolor. Ut eu ultricies tellus. Sed metus ex, tincidunt eu mollis sed, sollicitudin eget sapien. Ut condimentum lorem ut dui pellentesque aliquet eget id ipsum. Donec neque mauris, vehicula id bibendum ac, pulvinar in eros. Aenean quis quam eget turpis vulputate convallis. Quisque non ex a ligula dignissim finibus. Nulla pulvinar magna non ante dignissim, vitae semper dui vulputate.
+      Traveling is not only a challenge in an unprecedented period but also a risk. The borders restriction is getting loosen while the enormous efforts by the whole world have paid off. Yet it does not mean that we can fly like what we did before the pandemic. You strike your best to protect you and your beloved's health. Likewise, CovidClean works our best effort to provide you additional protection for your trip. Fly with CovidClean's information on your fingertip.
       </div>
     </div>
     <div class="row">
@@ -20,7 +20,7 @@ const HowItWorks = (props) => (
           <IosPaperPlaneOutline onClick={() => alert('Hi!')} fontSize="60px" color="#43853d" />
           <h3>Plan your flight ahead</h3>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis molestie neque. Mauris vulputate sit amet nisi in aliquet. 
+          Our insight is never too late until your flight check-in. Mitigate the risk by checking our aggregated covid19 database with ease. 
           </p>
         </div>
       </div>
@@ -29,7 +29,7 @@ const HowItWorks = (props) => (
           <IosSearchOutline onClick={() => alert('Hi!')} fontSize="60px" color="#43853d" />
           <h3>Search your flight</h3>
           <p>
-          Sed sit amet orci ultricies, feugiat est id, porttitor augue. Morbi feugiat elementum diam, a vulputate leo euismod viverra. Nunc enim est, blandit eleifend dictum facilisis, imperdiet non felis.
+          Input the airline and flight number. We will tell you the associated Covid19 cases with this cabin. The database supports the Hong Kong region with the latest seven days cases in the beta version.
           </p>
         </div>
       </div>
@@ -38,7 +38,7 @@ const HowItWorks = (props) => (
           <MdHeart onClick={() => alert('Hi!')} fontSize="60px" color="#43853d" />
           <h3>Safe Flight</h3>
           <p>
-          Vivamus ullamcorper vulputate odio. Aenean consequat est vestibulum nulla volutpat viverra tristique id dolor. Ut eu ultricies tellus. Sed metus ex, tincidunt eu mollis sed, sollicitudin eget sapien. Ut condimentum lorem ut dui pellentesque aliquet eget id ipsum. Donec neque mauris, vehicula id bibendum ac, pulvinar in eros. Aenean quis quam eget turpis vulputate convallis. Quisque non ex a ligula dignissim finibus. Nulla pulvinar magna non ante dignissim, vitae semper dui vulputate.
+          Make a wise choice and have a safe flight.	
           </p>
         </div>
       </div>
