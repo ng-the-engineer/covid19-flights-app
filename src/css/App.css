@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #dcedc8;
+  color: #fff;
+  font-family: 'Lato', 'Arial', 'sans-serif';
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/cabin.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 300%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+.section-how {
+  padding: 80px 0;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #b2ff59;
+  content: " ";
+  width: 200px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+.main-features {
+  padding: 30px auto;
+}
+
+.long-paragraph {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box {
+  padding: 5%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+.flight-filter-section {
+  display: block;
+  background-color: #43853d;
+  height: 30vh;
+}
+.flight-filter-box {
+  padding-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 35%;
+}
+
+label {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+}
+
+.input-label {
+  font-size: 80%;
+  color: white;
+}
+
+input[type=text] {
+  width: 200px;
+  height: 50px;
+  padding: 5px 20px;
+  
+  box-sizing: border-box;
+  border: 2px solid #33691e;
+  border-radius: 10px;
+  background-color: #dcedc8;
+}
+
+button {
+  border: none;
+  outline:none;
+  background-color: transparent;
+}
+
+
+
+.search-box {
+  float: left;
+  height: 50px;
+}
+
+
+.search-result-table {
+  margin: 30px 5%;
+  
+}
