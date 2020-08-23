@@ -14,7 +14,7 @@ html {
 }
 
 .row {
-  width: 1140px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -27,25 +27,23 @@ html {
 
 .hero-text-box {
   position: absolute;
-  width: 1140px;
+  width: 100%;
   top: 50%;
   left: 50%;
-  
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 5px;
   word-spacing: 10px;
+  transform: translate(-50%, -50%);
 }
 
 .hero-title {
   font-size: 300%;
   font-weight: 600;
-  transform: translate(-50%, -50%);
 }
 .hero-version {
   font-size: 100%;
   font-weight: 400;
-  transform: translate(45%, 0%);
 }
 
 .section-how {
@@ -136,13 +134,10 @@ button {
   background-color: transparent;
 }
 
-
-
 .search-box {
   float: left;
   height: 50px;
 }
-
 
 .search-result-table {
   margin: 30px 5%;
