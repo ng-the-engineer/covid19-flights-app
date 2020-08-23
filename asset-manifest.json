@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/covid19-flights-app/static/css/main.74e3e4ea.chunk.css",
-    "main.js": "/covid19-flights-app/static/js/main.7d799d21.chunk.js",
-    "main.js.map": "/covid19-flights-app/static/js/main.7d799d21.chunk.js.map",
+    "main.css": "/covid19-flights-app/static/css/main.46915108.chunk.css",
+    "main.js": "/covid19-flights-app/static/js/main.2ad95a39.chunk.js",
+    "main.js.map": "/covid19-flights-app/static/js/main.2ad95a39.chunk.js.map",
     "runtime-main.js": "/covid19-flights-app/static/js/runtime-main.cb7dab29.js",
     "runtime-main.js.map": "/covid19-flights-app/static/js/runtime-main.cb7dab29.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/covid19-flights-app/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.37462a6d.chunk.js": "/covid19-flights-app/static/js/2.37462a6d.chunk.js",
-    "static/js/2.37462a6d.chunk.js.map": "/covid19-flights-app/static/js/2.37462a6d.chunk.js.map",
+    "static/js/2.cb4ab684.chunk.js": "/covid19-flights-app/static/js/2.cb4ab684.chunk.js",
+    "static/js/2.cb4ab684.chunk.js.map": "/covid19-flights-app/static/js/2.cb4ab684.chunk.js.map",
     "index.html": "/covid19-flights-app/index.html",
-    "precache-manifest.b6ec3c61773a1c7c8a59332349ffc0b1.js": "/covid19-flights-app/precache-manifest.b6ec3c61773a1c7c8a59332349ffc0b1.js",
+    "precache-manifest.2f7dd544c9ab12c90c6ecd0915d084d0.js": "/covid19-flights-app/precache-manifest.2f7dd544c9ab12c90c6ecd0915d084d0.js",
     "service-worker.js": "/covid19-flights-app/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/covid19-flights-app/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.74e3e4ea.chunk.css.map": "/covid19-flights-app/static/css/main.74e3e4ea.chunk.css.map",
-    "static/js/2.37462a6d.chunk.js.LICENSE.txt": "/covid19-flights-app/static/js/2.37462a6d.chunk.js.LICENSE.txt",
+    "static/css/main.46915108.chunk.css.map": "/covid19-flights-app/static/css/main.46915108.chunk.css.map",
+    "static/js/2.cb4ab684.chunk.js.LICENSE.txt": "/covid19-flights-app/static/js/2.cb4ab684.chunk.js.LICENSE.txt",
     "static/media/App.css": "/covid19-flights-app/static/media/cabin.d6f2cf5b.jpg",
     "static/media/logo.svg": "/covid19-flights-app/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cb7dab29.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.37462a6d.chunk.js",
-    "static/css/main.74e3e4ea.chunk.css",
-    "static/js/main.7d799d21.chunk.js"
+    "static/js/2.cb4ab684.chunk.js",
+    "static/css/main.46915108.chunk.css",
+    "static/js/main.2ad95a39.chunk.js"
   ]
 }
