@@ -21,7 +21,7 @@ const FlightsFilter = (props) => (
       </div>
       <div class="search-box">
         <label></label><br/>
-        <button><IosSearchOutline fontSize="50px" color="#fff" shake={true}/></button>
+        <button><IosSearchOutline fontSize="50px" color="#fff" /></button>
       </div>
     </form>
   </div>

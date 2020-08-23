@@ -67,7 +67,7 @@ h2:after {
   background-color: #b2ff59;
   content: " ";
   width: 200px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
 
 h3 {
@@ -79,9 +79,13 @@ h3 {
 }
 
 .long-paragraph {
-  line-height: 145%;
+  line-height: 160%;
   width: 70%;
   margin-left: 15%;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-align: justify;
+  font-weight: 400;
 }
 
 .box {
