@@ -14,8 +14,8 @@ html {
 }
 
 .row {
-  width: 100%;
-  margin: 0 auto;
+  width: 50%;
+  margin: 20px auto;
 }
 
 .header {
@@ -66,21 +66,21 @@ h2:after {
   background-color: #b2ff59;
   content: " ";
   width: 200px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 10px auto;
 }
 
 h3 {
   font-size: 110%;
+  word-spacing: 2px;
+  letter-spacing: 3px;
 }
 
-.main-features {
-  padding: 30px auto;
+.invisible-padding {
+  width: 15px;
 }
 
 .long-paragraph {
   line-height: 160%;
-  width: 70%;
-  margin-left: 15%;
   word-spacing: 3px;
   letter-spacing: 2px;
   text-align: justify;
@@ -88,7 +88,10 @@ h3 {
 }
 
 .box {
-  padding: 5%;
+  padding: 10px 20px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 
 .box p {
