@@ -144,8 +144,8 @@ button {
 }
 
 .search-result-table {
-  margin: 30px 5%;
-  
+  padding: 30px 5%;
+  font-size: 80%;
 }
 
 .footer {

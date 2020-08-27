@@ -17,7 +17,7 @@ const FlightsFilter = (props) => (
       </div>
       <div class="search-box">
         <label class="input-label">Flight Number</label><br/>
-        <input type="text" name="flightNumber" placeholder="e.g. 520" maxlength="4"/><br/>
+        <input type="text" name="flightNumber" placeholder="e.g. 881" maxlength="4"/><br/>
       </div>
       <div class="search-box">
         <label></label><br/>

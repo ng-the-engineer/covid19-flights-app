@@ -15,6 +15,11 @@
     font-weight: 600;
   }
 
+  .search-result-table {
+    padding: 30px 5%;
+    font-size: 80%;
+  }
+
   .footer {
     height: 17vh;
   }
@@ -37,6 +42,11 @@
     font-weight: 600;
   }
 
+  .search-result-table {
+    padding: 30px 5%;
+    font-size: 80%;
+  }
+
   .footer {
     height: 20vh;
   }
@@ -55,8 +65,13 @@
   }
 
   .hero-title {
-    font-size: 300%;
+    font-size: 200%;
     font-weight: 600;
+  }
+
+  .search-result-table {
+    padding: 30px 5%;
+    font-size: 80%;
   }
 
   .footer {
@@ -79,6 +94,11 @@
   .hero-title {
     font-size: 150%;
     font-weight: 600;
+  }
+
+  .search-result-table {
+    padding: 30px 5%;
+    font-size: 50%;
   }
 
   .footer {

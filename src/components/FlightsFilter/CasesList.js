@@ -5,29 +5,19 @@ import BootstrapTable from 'react-bootstrap-table-next';
 const CasesList = (props) => {
   console.log('props:', props)
 
-  const products = [ {
-    id: '0003',
-    name: 'Johnson',
-    price: '576'
-  },{
-    id: '006',
-    name: 'Prince',
-    price: '7890'
-  } ];
-
-  const columns = [{
+  const columns = [/*{
     dataField: 'airline',
     text: 'Airline'
   }, {
     dataField: 'flight_number',
     text: 'Flight Number'
-  }, {
+  },*/ {
     dataField: 'origin',
     text: 'Origin'
-  }, {
+  },/* {
     dataField: 'destination',
     text: 'Destination'
-  }, {
+  },*/ {
     dataField: 'arrival_date',
     text: 'Arrival Date'
   }, {
