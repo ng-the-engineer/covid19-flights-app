@@ -9,6 +9,7 @@ import Header from './components/Header';
 import HowItWorks from './components/HowItWorks';
 import FlightsFilter from './components/FlightsFilter/FlightsFilter';
 import CasesList from './components/FlightsFilter/CasesList';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <HowItWorks/>
       <FlightsFilter/>
       <CasesList/>
+      <Footer/>
     </div>
   );
 }

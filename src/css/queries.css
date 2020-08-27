@@ -14,6 +14,10 @@
     font-size: 300%;
     font-weight: 600;
   }
+
+  .footer {
+    height: 17vh;
+  }
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -31,6 +35,10 @@
   .hero-title {
     font-size: 300%;
     font-weight: 600;
+  }
+
+  .footer {
+    height: 20vh;
   }
 }
 
@@ -50,6 +58,10 @@
     font-size: 300%;
     font-weight: 600;
   }
+
+  .footer {
+    height: 25vh;
+  }
 }
 
 /* Small phones: from 0 to 480px  */
@@ -67,5 +79,9 @@
   .hero-title {
     font-size: 150%;
     font-weight: 600;
+  }
+
+  .footer {
+    height: 30vh;
   }
 }
