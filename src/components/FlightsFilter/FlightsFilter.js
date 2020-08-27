@@ -13,11 +13,11 @@ const FlightsFilter = (props) => (
     }}>
       <div class="search-box">
         <label class="input-label">Airline</label><br/>
-        <input type="text" class="input-box" name="airline" placeholder="e.g. CX"/>
+        <input type="text" class="input-box" name="airline" placeholder="e.g. CX" maxlength="3"/>
       </div>
       <div class="search-box">
         <label class="input-label">Flight Number</label><br/>
-        <input type="text" name="flightNumber" placeholder="e.g. 520"/><br/>
+        <input type="text" name="flightNumber" placeholder="e.g. 520" maxlength="4"/><br/>
       </div>
       <div class="search-box">
         <label></label><br/>
