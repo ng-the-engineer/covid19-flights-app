@@ -17,7 +17,9 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>CovidClean</title>
-        <meta name="description" content="React application" />
+        <meta name="title" content="CovidClean" />
+        <meta name="name" content="CovidClean" />
+        <meta name="description" content="CovidClean" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
       <Header/>
