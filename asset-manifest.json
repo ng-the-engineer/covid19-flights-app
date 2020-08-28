@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/covid19-flights-app/static/css/main.9d006a86.chunk.css",
-    "main.js": "/covid19-flights-app/static/js/main.66b4369b.chunk.js",
-    "main.js.map": "/covid19-flights-app/static/js/main.66b4369b.chunk.js.map",
+    "main.css": "/covid19-flights-app/static/css/main.7a89038a.chunk.css",
+    "main.js": "/covid19-flights-app/static/js/main.088db4a2.chunk.js",
+    "main.js.map": "/covid19-flights-app/static/js/main.088db4a2.chunk.js.map",
     "runtime-main.js": "/covid19-flights-app/static/js/runtime-main.83c8164d.js",
     "runtime-main.js.map": "/covid19-flights-app/static/js/runtime-main.83c8164d.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/covid19-flights-app/static/css/2.f3cffc9e.chunk.css",
     "static/js/2.cf13c7c1.chunk.js": "/covid19-flights-app/static/js/2.cf13c7c1.chunk.js",
     "static/js/2.cf13c7c1.chunk.js.map": "/covid19-flights-app/static/js/2.cf13c7c1.chunk.js.map",
     "index.html": "/covid19-flights-app/index.html",
-    "precache-manifest.4b33eaf2f0331ea259ea42fa4edf65d8.js": "/covid19-flights-app/precache-manifest.4b33eaf2f0331ea259ea42fa4edf65d8.js",
+    "precache-manifest.351bc467978bfb062aca2bd13a303821.js": "/covid19-flights-app/precache-manifest.351bc467978bfb062aca2bd13a303821.js",
     "service-worker.js": "/covid19-flights-app/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/covid19-flights-app/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.9d006a86.chunk.css.map": "/covid19-flights-app/static/css/main.9d006a86.chunk.css.map",
+    "static/css/main.7a89038a.chunk.css.map": "/covid19-flights-app/static/css/main.7a89038a.chunk.css.map",
     "static/js/2.cf13c7c1.chunk.js.LICENSE.txt": "/covid19-flights-app/static/js/2.cf13c7c1.chunk.js.LICENSE.txt",
     "static/media/App.css": "/covid19-flights-app/static/media/cabin.d6f2cf5b.jpg",
     "static/media/logo.svg": "/covid19-flights-app/static/media/logo.5d5d9eef.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.83c8164d.js",
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.cf13c7c1.chunk.js",
-    "static/css/main.9d006a86.chunk.css",
-    "static/js/main.66b4369b.chunk.js"
+    "static/css/main.7a89038a.chunk.css",
+    "static/js/main.088db4a2.chunk.js"
   ]
 }
