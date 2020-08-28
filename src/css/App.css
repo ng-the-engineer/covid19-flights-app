@@ -5,10 +5,10 @@
 }
 
 html {
+  color: #424242;
   background-color: #dcedc8;
-  color: #fff;
   font-family: 'Lato', 'Arial', 'sans-serif';
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
@@ -51,7 +51,13 @@ html {
   padding: 80px 0;
 }
 
+.feature-text {
+  color: #424242;
+  font-weight: 300;
+}
+
 h2 {
+  color: #616161;
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
@@ -70,6 +76,7 @@ h2:after {
 }
 
 h3 {
+  color: #616161;
   font-size: 110%;
   word-spacing: 2px;
   letter-spacing: 3px;
@@ -80,11 +87,12 @@ h3 {
 }
 
 .long-paragraph {
+  color: #424242;
+  font-weight: 300;
   line-height: 160%;
   word-spacing: 3px;
   letter-spacing: 2px;
   text-align: justify;
-  font-weight: 400;
 }
 
 .box {
@@ -101,7 +109,7 @@ h3 {
 
 .flight-filter-section {
   display: block;
-  background-color: #43853d;
+  background-color: #1b5e20;
   height: 30vh;
 }
 .flight-filter-box {

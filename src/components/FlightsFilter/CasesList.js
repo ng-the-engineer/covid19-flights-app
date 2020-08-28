@@ -11,14 +11,18 @@ const CasesList = (props) => {
   }, {
     dataField: 'flight_number',
     text: 'Flight Number'
-  },*/ {
+  }, {
     dataField: 'origin',
     text: 'Origin'
-  },/* {
+  }, {
     dataField: 'destination',
     text: 'Destination'
-  },*/ {
-    dataField: 'arrival_date',
+  }, */
+  {
+    dataField: 'path',
+    text: 'Route'
+  }, {
+    dataField: 'shortDate',
     text: 'Arrival Date'
   }, {
     dataField: 'seat_number',

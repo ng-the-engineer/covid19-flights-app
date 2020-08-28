@@ -21,7 +21,7 @@ const HowItWorks = (props) => (
         <div>
           <IosPaperPlaneOutline fontSize="60px" color="#43853d" />
           <h3>Before check-in</h3>
-          <p>
+          <p class="feature-text">
           We know your concern about traveling at this moment. Our insight is never too late until your flight check-in. Mitigate the risk by checking our aggregated covid19 database with ease. Input the airline code and flight number. We will tell you the associated Covid19 cases with this cabin.
           </p>
         </div>
@@ -30,7 +30,7 @@ const HowItWorks = (props) => (
         <div>
           <IosSearchOutline fontSize="60px" color="#43853d" />
           <h3>Search your flight</h3>
-          <p>
+          <p class="feature-text">
           Our information is based on the Open Data by the government. If no result is displayed, it indicates there is no case related to this flight number according to the particular government. Unfortunately, if there are cases found, we hope you make your plan with the best available option.  Our database supports the Hong Kong region with the latest seven days cases in the beta version.
           </p>
         </div>
@@ -39,7 +39,7 @@ const HowItWorks = (props) => (
         <div>
           <MdHeart fontSize="60px" color="#43853d" />
           <h3>Safe flight</h3>
-          <p>
+          <p class="feature-text">
           Make a wise choice and have a safe flight. CovidClean provides data for informational purposes. The traveling policies of the airlines and immigration are subjected to change due to the pandemic's progress. Please always check with your airlines, immigration, and airports for the latest policies.
           </p>
         </div>
