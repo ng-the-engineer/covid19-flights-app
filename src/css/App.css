@@ -47,6 +47,14 @@ html {
   font-weight: 400;
 }
 
+.credit {
+  position: absolute;
+  left: 2%;
+  top: 97%;
+  color: #fff;
+  font-size: 50%;
+}
+
 .section-how {
   padding: 80px 0;
 }
