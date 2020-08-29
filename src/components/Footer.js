@@ -17,7 +17,7 @@ const Footer = (props) => {
         <ul class="footer-nav">
           <li><a href="#" >About</a></li>
           <li><a href="#" onClick={() => setModalShow(true)}>Disclaimer</a></li>
-          <li><a href="#" >Contact us</a></li>
+          <li><a href="#" >Subscribe</a></li>
           <DisclaimerModel show={modalShow} onHide={() => setModalShow(false)}/>
         </ul>
       </div>
@@ -25,13 +25,13 @@ const Footer = (props) => {
       <div class="span-1-of-2">
         <ul class="social-icons">
           <li>
-            <a href="#"><LogoTwitter fontSize="30px" color="#55acee" /></a>
+            <a href="#"><LogoTwitter fontSize="20px" color="#55acee" /></a>
           </li>
           <li>
-            <a href="#"><MdMail fontSize="30px" color="#D44638" /></a>
+            <a href="mailto:covidclean@valubees.co.uk"><MdMail fontSize="20px" color="#D44638" /></a>
           </li>
           <li>
-            <a href="#"><LogoGithub fontSize="30px" color="#333" /></a>
+            <a href="#"><LogoGithub fontSize="20px" color="#333" /></a>
           </li>
         </ul>
       </div>

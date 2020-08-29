@@ -44,8 +44,9 @@ const CasesList = (props) => {
       striped
       hover
       condensed
-  noDataIndication={ () => <NoDataIndication /> } />
-  </div>
+    noDataIndication={ () => <NoDataIndication /> } />
+      * A flight number refers to a specific route, which possibly operates with multiple aircraft. For more information, please visit <a href="https://en.wikipedia.org/wiki/Flight_number#:~:text=Officially%20the%20term%20'flight%20number,%222491%22%20are%20flight%20numbers.">Wikipedia</a>
+    </div>
 )}
 
 const mapStateToProps = (state) => ({
