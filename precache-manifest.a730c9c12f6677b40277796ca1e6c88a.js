@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ce2a1bab1600ec2248adf008a3b2174",
+    "revision": "9c630aba6ed0b5936d5c16a83672bac2",
     "url": "/covid19-flights-app/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid19-flights-app/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "e931b6d674a1c918ea63",
-    "url": "/covid19-flights-app/static/css/main.8aca16e5.chunk.css"
+    "revision": "201f378c8d5a782af85b",
+    "url": "/covid19-flights-app/static/css/main.63bfa35b.chunk.css"
   },
   {
     "revision": "bf52497a1206066e3f4e",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid19-flights-app/static/js/2.cf13c7c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e931b6d674a1c918ea63",
-    "url": "/covid19-flights-app/static/js/main.01b44744.chunk.js"
+    "revision": "201f378c8d5a782af85b",
+    "url": "/covid19-flights-app/static/js/main.0a76af60.chunk.js"
   },
   {
     "revision": "19fa27da03363c63a546",
