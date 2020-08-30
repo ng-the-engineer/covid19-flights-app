@@ -1,8 +1,8 @@
 const FLIGHT_FILTER = 'FLIGHT_FILTER'
 
-export const filterByAirlineFlightNo = (airline, flightNumber) => {
+export const filterByAirlineFlightNo = (flightCode) => {
   return dispatch => {
-    fetch(`https://covid19-flights.herokuapp.com/api/flights?airline=${airline}&flightNumber=${flightNumber}`, {
+    fetch(`https://covid19-flights.herokuapp.com/api/flights?flightCode=${flightCode}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'

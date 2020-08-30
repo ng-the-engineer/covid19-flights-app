@@ -15,6 +15,11 @@
     font-weight: 600;
   }
 
+  .credit {
+    top: 97%;
+    font-size: 50%;
+  }
+
   .flight-filter-box {
     padding-top: 50px;
     margin-bottom: 100px;
@@ -27,7 +32,7 @@
   }
 
   .footer {
-    height: 17vh;
+    height: 20vh;
   }
 }
 
@@ -46,6 +51,11 @@
   .hero-title {
     font-size: 300%;
     font-weight: 600;
+  }
+
+  .credit {
+    top: 97%;
+    font-size: 50%;
   }
 
   .flight-filter-box {
@@ -81,6 +91,11 @@
     font-weight: 600;
   }
 
+  .credit {
+    top: 97%;
+    font-size: 50%;
+  }
+
   .flight-filter-box {
     padding-top: 50px;
     margin-bottom: 100px;
@@ -112,6 +127,11 @@
   .hero-title {
     font-size: 150%;
     font-weight: 600;
+  }
+
+  .credit {
+    top: 97%;
+    font-size: 50%;
   }
 
   .flight-filter-box {

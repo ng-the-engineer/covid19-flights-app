@@ -7,6 +7,9 @@ const Header = (props) => (
       <span class="hero-title">Fly safely with CovidClean</span>
       <span class="hero-version">beta</span>
     </div>
+    <div class="credit">
+      Photo credit to Mike Palmowski
+    </div>
   </header>
 )
 

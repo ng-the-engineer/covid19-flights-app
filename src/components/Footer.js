@@ -2,12 +2,14 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Button from 'react-bootstrap/Button';
 import DisclaimerModel from './Disclaimer';
+import AboutModel from './About';
 import MdMail from 'react-ionicons/lib/MdMail';
 import LogoTwitter from 'react-ionicons/lib/LogoTwitter';
 import LogoGithub from 'react-ionicons/lib/LogoGithub';
 
 const Footer = (props) => {
   const [modalShow, setModalShow] = React.useState(false);
+  const [aboutModalShow, setAboutModalShow] = React.useState(false);
 
   return (
   <footer class="footer">
@@ -15,9 +17,10 @@ const Footer = (props) => {
       
       <div class="span-1-of-2">
         <ul class="footer-nav">
-          <li><a href="#" >About</a></li>
+          <li><a href="#" onClick={() => setAboutModalShow(true)}>About</a></li>
           <li><a href="#" onClick={() => setModalShow(true)}>Disclaimer</a></li>
-          <li><a href="#" >Contact us</a></li>
+          <li><a href="#" >Subscribe</a></li>
+          <AboutModel show={aboutModalShow} onHide={() => setAboutModalShow(false)}/>
           <DisclaimerModel show={modalShow} onHide={() => setModalShow(false)}/>
         </ul>
       </div>
@@ -25,13 +28,13 @@ const Footer = (props) => {
       <div class="span-1-of-2">
         <ul class="social-icons">
           <li>
-            <a href="#"><LogoTwitter fontSize="30px" color="#55acee" /></a>
+            <a href="#"><LogoTwitter fontSize="20px" color="#55acee" /></a>
           </li>
           <li>
-            <a href="#"><MdMail fontSize="30px" color="#D44638" /></a>
+            <a href="mailto:covidclean@valubees.co.uk"><MdMail fontSize="20px" color="#D44638" /></a>
           </li>
           <li>
-            <a href="#"><LogoGithub fontSize="30px" color="#333" /></a>
+            <a href="#"><LogoGithub fontSize="20px" color="#333" /></a>
           </li>
         </ul>
       </div>
