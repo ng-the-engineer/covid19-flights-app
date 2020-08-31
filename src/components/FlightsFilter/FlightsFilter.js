@@ -1,15 +1,16 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { filterByAirlineFlightNo } from '../../actions';
-import IosSearchOutline from 'react-ionicons/lib/IosSearchOutline'
+import IosSearchOutline from 'react-ionicons/lib/IosSearchOutline';
 
-const FlightsFilter = (props) => (
+const FlightsFilter = ({searchList, dispatch}) => (
   <div class="flight-filter-section">
     <form class="flight-filter-box" onSubmit={(event) => {
       event.preventDefault()
       let airline = event.target.airline.value
       let flightNumber = event.target.flightNumber.value
-      props.dispatch(filterByAirlineFlightNo(airline, flightNumber))
+      dispatch(filterByAirlineFlightNo(airline, flightNumber))
+      searchList()
     }}>
       <div class="search-box">
         <label class="input-label">Airline</label><br/>

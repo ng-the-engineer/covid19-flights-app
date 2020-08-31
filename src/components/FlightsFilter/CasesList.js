@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 import BootstrapTable from 'react-bootstrap-table-next';
 
 const CasesList = (props) => {
-  console.log('props:', props)
-
   const products = [ {
     id: '0003',
     name: 'Johnson',

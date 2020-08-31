@@ -148,3 +148,10 @@ button {
   margin: 30px 5%;
   
 }
+
+.load_animation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
