@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import ReactLoading from "react-loading";
+import LoadingOverlay from 'react-loading-overlay';
 import './css/App.css';
 import './css/grid.css';
 
@@ -25,15 +25,18 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-      {
-        this.state.loading ? <ReactLoading type={"spinningBubbles"} color="#000" height={'20%'} width={'20%'} class="load_animation" /> :
+      <LoadingOverlay
+        active={this.state.loading}
+        spinner
+        text='Loading your content...'
+        >
         <div>
           <Header />
           <HowItWorks />
           <FlightsFilter searchList={this.searchList.bind(this)} />
           <CasesList />
         </div>
-      }
+      </LoadingOverlay>
       </div>
     );
   }
