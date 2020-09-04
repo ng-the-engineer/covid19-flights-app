@@ -1,0 +1,151 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .row {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 20%;
+  }
+
+  .hero-title {
+    font-size: 300%;
+    font-weight: 600;
+  }
+
+  .credit {
+    top: 97%;
+    font-size: 50%;
+  }
+
+  .flight-filter-box {
+    padding-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 35%;
+  }
+
+  .search-result-table {
+    padding: 30px 5%;
+    font-size: 80%;
+  }
+
+  .footer {
+    height: 20vh;
+  }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  .row {
+    width: 65%;
+    margin: 20px auto;
+  }
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 25%;
+  }
+
+  .hero-title {
+    font-size: 300%;
+    font-weight: 600;
+  }
+
+  .credit {
+    top: 97%;
+    font-size: 50%;
+  }
+
+  .flight-filter-box {
+    padding-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 35%;
+  }
+
+  .search-result-table {
+    padding: 30px 5%;
+    font-size: 80%;
+  }
+
+  .footer {
+    height: 20vh;
+  }
+}
+
+/* Small phones to small tables: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  .row {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  .hero-title {
+    font-size: 200%;
+    font-weight: 600;
+  }
+
+  .credit {
+    top: 97%;
+    font-size: 50%;
+  }
+
+  .flight-filter-box {
+    padding-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 15%;
+  }
+
+  .search-result-table {
+    padding: 30px 3%;
+    font-size: 60%;
+  }
+
+  .footer {
+    height: 25vh;
+  }
+}
+
+/* Small phones: from 0 to 480px  */
+@media only screen and (max-width: 480px) {
+  .row {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .hero-text-box {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  .hero-title {
+    font-size: 150%;
+    font-weight: 600;
+  }
+
+  .credit {
+    top: 97%;
+    font-size: 50%;
+  }
+
+  .flight-filter-box {
+    padding-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+  }
+
+  .search-result-table {
+    padding: 10px 1%;
+    font-size: 50%;
+  }
+
+  .footer {
+    height: 30vh;
+  }
+}

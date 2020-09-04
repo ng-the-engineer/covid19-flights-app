@@ -7,18 +7,13 @@ const FlightsFilter = ({searchList, dispatch}) => (
   <div class="flight-filter-section">
     <form class="flight-filter-box" onSubmit={(event) => {
       event.preventDefault()
-      let airline = event.target.airline.value
-      let flightNumber = event.target.flightNumber.value
-      dispatch(filterByAirlineFlightNo(airline, flightNumber))
+      let flightCode = event.target.flightCode.value
+      dispatch(filterByAirlineFlightNo(flightCode))
       searchList()
     }}>
       <div class="search-box">
-        <label class="input-label">Airline</label><br/>
-        <input type="text" class="input-box" name="airline" placeholder="e.g. CX"/>
-      </div>
-      <div class="search-box">
-        <label class="input-label">Flight Number</label><br/>
-        <input type="text" name="flightNumber" placeholder="e.g. 520"/><br/>
+        <label class="input-label">Flight Code</label><br/>
+        <input type="text" class="input-box" name="flightCode" placeholder="e.g. CX881" maxlength="6"/>
       </div>
       <div class="search-box">
         <label></label><br/>

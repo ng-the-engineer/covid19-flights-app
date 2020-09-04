@@ -3,17 +3,9 @@ import { connect } from 'react-redux';
 import BootstrapTable from 'react-bootstrap-table-next';
 
 const CasesList = (props) => {
-  const products = [ {
-    id: '0003',
-    name: 'Johnson',
-    price: '576'
-  },{
-    id: '006',
-    name: 'Prince',
-    price: '7890'
-  } ];
 
-  const columns = [{
+  const columns = [/*{
+>>>>>>> develop
     dataField: 'airline',
     text: 'Airline'
   }, {
@@ -25,8 +17,12 @@ const CasesList = (props) => {
   }, {
     dataField: 'destination',
     text: 'Destination'
+  }, */
+  {
+    dataField: 'path',
+    text: 'Route'
   }, {
-    dataField: 'arrival_date',
+    dataField: 'shortDate',
     text: 'Arrival Date'
   }, {
     dataField: 'seat_number',
@@ -48,8 +44,9 @@ const CasesList = (props) => {
       striped
       hover
       condensed
-  noDataIndication={ () => <NoDataIndication /> } />
-  </div>
+    noDataIndication={ () => <NoDataIndication /> } />
+      * A flight number refers to a specific route, which possibly operates with multiple aircraft. For more information, please visit <a href="https://en.wikipedia.org/wiki/Flight_number#:~:text=Officially%20the%20term%20'flight%20number,%222491%22%20are%20flight%20numbers.">Wikipedia</a>
+    </div>
 )}
 
 const mapStateToProps = (state) => ({
